@@ -20,7 +20,7 @@ function main() {
     var $section = $(this);
     var slidePath = $section.attr('data-markdown');
     var slideContent = fs.readFileSync(slidePath, 'utf-8');
-    $section.attr('data-separator', "BRBRBR");
+    $section.attr('data-separator', '^\r?\n---\r?\n');
     $section.attr('data-markdown', '');
     $section.html('<script type="template/markdown">'+ slideContent + '</script>');
   });

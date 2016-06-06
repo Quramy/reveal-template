@@ -5,8 +5,13 @@
 
 ## run
 
-1. `grunt serve`
+1. `npm start`
 
 ## build
 
 1. `npm run dist`
+
+## upload to github pages
+
+1. `npm run gh-pages`
+

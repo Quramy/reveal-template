@@ -25,7 +25,9 @@
   },
   "scripts": {
     "test": "grunt test",
-    "dist": "grunt dist && mv dist/index.html dist/_index.html && node ./tools/embedding.js ./dist/_index.html ./dist/index.html"
+    "start": "grunt serve",
+    "dist": "grunt dist && mv dist/index.html dist/_index.html && node ./tools/embedding.js ./dist/_index.html ./dist/index.html",
+    "gh-pages": "npm run dist && gh-pages --dist dist"
   },
   "dependencies": {
     "cheerio": "^0.20.0"

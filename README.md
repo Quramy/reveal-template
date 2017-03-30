@@ -1,5 +1,7 @@
 # reveal template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Quramy/reveal-template.svg)](https://greenkeeper.io/)
+
 1. clone this repo
 1. `npm i && bower i`
 
